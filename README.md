@@ -180,35 +180,36 @@ Built with a modern **React + Node.js + MongoDB** stack and deployed on cloud pl
 | 📱 | **Responsive Design** | Optimized for both desktop and mobile browsers |
 | 🔒 | **Consent-First Model** | Location shared only when user explicitly grants browser permission |
 
----
-
 ## ⚙️ How It Works
-┌─────────────────────────────────────────────────────────────────┐
-│                        USER FLOW                                │
-│                                                                 │
-│  1. User visits LivGuard → enters phone number                 │
-│           │                                                     │
-│           ▼                                                     │
-│  2. OTP is generated & validated (demo OTP: 722303)            │
-│           │                                                     │
-│           ▼                                                     │
-│  3. JWT token issued → user session begins                     │
-│           │                                                     │
-│           ▼                                                     │
-│  4. User allows browser location permission                    │
-│           │                                                     │
-│           ▼                                                     │
-│  5. Geolocation API captures lat/lng coordinates               │
-│           │                                                     │
-│           ▼                                                     │
-│  6. Coordinates sent to Express backend via REST API           │
-│           │                                                     │
-│           ▼                                                     │
-│  7. MongoDB stores/updates location document                   │
-│           │                                                     │
-│           ▼                                                     │
-│  8. Family members query API → see live pins on Leaflet map    │
-└─────────────────────────────────────────────────────────────────┘
+
+```
+┌──────────────────────────────────────────────────────────────┐
+│                         USER FLOW                            │
+│                                                              │
+│  1. User visits LivGuard → enters phone number              │
+│              │                                               │
+│              ▼                                               │
+│  2. OTP is generated & validated (demo OTP: 722303)         │
+│              │                                               │
+│              ▼                                               │
+│  3. JWT token issued → user session begins                  │
+│              │                                               │
+│              ▼                                               │
+│  4. User allows browser location permission                 │
+│              │                                               │
+│              ▼                                               │
+│  5. Geolocation API captures lat/lng coordinates            │
+│              │                                               │
+│              ▼                                               │
+│  6. Coordinates sent to Express backend via REST API        │
+│              │                                               │
+│              ▼                                               │
+│  7. MongoDB stores/updates location document                │
+│              │                                               │
+│              ▼                                               │
+│  8. Family members query API → see pins on Leaflet map      │
+└──────────────────────────────────────────────────────────────┘
+```
 ### 🔑 Authentication Flow
 
 1. User enters their registered phone number
