@@ -92,23 +92,7 @@ Here is the complete fixed README — copy and paste everything:
 
 
 
-## 📌 Table of Contents
 
-- [Problem Statement](#-problem-statement)
-- [What is LivGuard?](#-what-is-livguard)
-- [Live Demo](#-live-demo)
-- [Features](#-features)
-- [How It Works](#-how-it-works)
-- [Tech Stack](#-tech-stack)
-- [Deployment Architecture](#-deployment-architecture)
-- [Getting Started](#-getting-started)
-- [Usage Guide](#-usage-guide)
-- [Demo Credentials](#-demo-credentials)
-- [Project Structure](#-project-structure)
-- [Future Improvements](#-future-improvements)
-- [Author](#-author)
-
----
 
 ## ❗ Problem Statement
 
