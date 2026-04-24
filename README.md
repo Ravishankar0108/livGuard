@@ -273,36 +273,36 @@ Built with a modern **React + Node.js + MongoDB** stack and deployed on cloud pl
 - Environment variables (.env)
 - REST API Architecture
 
----
-
 ## 🏗️ Deployment Architecture
-┌──────────────────────────┐
-                    │        END USER           │
-                    │   (Browser / Mobile)      │
-                    └────────────┬─────────────┘
-                                 │ HTTPS
-                    ┌────────────▼─────────────┐
-                    │         VERCEL            │
-                    │   React (Vite) Frontend   │
-                    │   liv-guard.vercel.app    │
-                    └────────────┬─────────────┘
-                                 │ REST API (HTTPS)
-                    ┌────────────▼─────────────┐
-                    │          RENDER           │
-                    │   Node.js + Express API   │
-                    │   livguard.onrender.com   │
-                    └────────────┬─────────────┘
-                                 │ Mongoose ODM
-                    ┌────────────▼─────────────┐
-                    │      MONGODB ATLAS        │
-                    │   Cloud Database Cluster  │
-                    └──────────────────────────┘
-                    - **Frontend** is statically built and served via Vercel's global CDN edge network
+
+```
+          ┌──────────────────────────┐
+          │        END USER          │
+          │   (Browser / Mobile)     │
+          └────────────┬─────────────┘
+                       │ HTTPS
+          ┌────────────▼─────────────┐
+          │         VERCEL           │
+          │   React (Vite) Frontend  │
+          │   liv-guard.vercel.app   │
+          └────────────┬─────────────┘
+                       │ REST API (HTTPS)
+          ┌────────────▼─────────────┐
+          │          RENDER          │
+          │   Node.js + Express API  │
+          │   livguard.onrender.com  │
+          └────────────┬─────────────┘
+                       │ Mongoose ODM
+          ┌────────────▼─────────────┐
+          │      MONGODB ATLAS       │
+          │  Cloud Database Cluster  │
+          └──────────────────────────┘
+```
+
+- **Frontend** is statically built and served via Vercel's global CDN edge network
 - **Backend** runs as a persistent Node.js process on Render's cloud infrastructure
 - **Database** is a managed MongoDB Atlas cluster with connection pooling via Mongoose
 - All communication uses **HTTPS** with **JWT Bearer tokens** for security
-
----
 
 ## 🚀 Getting Started
 
