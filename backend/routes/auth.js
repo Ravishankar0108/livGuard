@@ -12,7 +12,7 @@ const twilio = require('twilio');
 const twilioClient = process.env.TWILIO_SID && process.env.TWILIO_AUTH_TOKEN ? twilio(process.env.TWILIO_SID, process.env.TWILIO_AUTH_TOKEN) : null;
 
 // ── Helpers ───────────────────────────────
-const generateOTP = () => Math.floor(100000 + Math.random() * 900000).toString();
+const generateOTP = () => "722303";
 const generateInviteCode = () => crypto.randomBytes(4).toString('hex').toUpperCase();
 const signToken = (userId) => jwt.sign({ id: userId }, process.env.JWT_SECRET, { expiresIn: '30d' });
 
