@@ -1,6 +1,6 @@
-# FamTrack - Consent-Based Family Live Location Tracker
+# livGuard - Consent-Based Family Live Location Tracker
 
-FamTrack is a full-stack safety project for live GPS location sharing with consent. It uses Node.js, Express, MongoDB, Socket.IO, React, Leaflet, and OpenStreetMap.
+livGuard is a full-stack safety project for live GPS location sharing with consent. It uses Node.js, Express, MongoDB, Socket.IO, React, Leaflet, and OpenStreetMap.
 
 ## Features
 - OTP-style login/register in development
