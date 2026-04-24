@@ -183,6 +183,12 @@ Built with a modern **React + Node.js + MongoDB** stack and deployed on cloud pl
 - Environment variables (.env)
 - REST API Architecture
 
+---
+
+## 🏗️ Deployment Architecture
+
+<img src="./livguard_architecture.svg" width="100%" alt="LivGuard Architecture" />
+
 ## 🏗️ Deployment Architecture
 
 ```
