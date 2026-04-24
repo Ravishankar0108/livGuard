@@ -80,7 +80,7 @@ function App() {
 
   return <div className="app">
     <aside>
-      <h1>FamTrack</h1><p>Consent-based family safety location dashboard</p>
+      <h1>livGuard</h1><p>Consent-based family safety location dashboard</p>
       {!token ? <div className="card">
         <input placeholder="Name for new user" value={name} onChange={e=>setName(e.target.value)} />
         <input placeholder="Phone e.g. +919999999999" value={phone} onChange={e=>setPhone(e.target.value)} />
