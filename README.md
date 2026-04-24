@@ -24,31 +24,32 @@
 - 🌍 Works globally (deployed)
 
 ---
-
 ## 🛠️ Tech Stack
 
-### Frontend
-- React (Vite)
-- JavaScript
-- CSS
+### 🔹 Frontend
+- React.js (Vite)
+- JavaScript (ES6+)
+- HTML5 & CSS3
+- Axios (API calls)
+- Leaflet.js (Maps)
 
-### Backend
+### 🔹 Backend
 - Node.js
 - Express.js
+- REST API Architecture
+- JWT Authentication
 
-### Database
-- MongoDB
+### 🔹 Database
+- MongoDB (Mongoose ODM)
 
-### Deployment
-- Frontend: :contentReference[oaicite:1]{index=1}
-- Backend: :contentReference[oaicite:2]{index=2}
+### 🔹 Deployment & Tools
+- Git & GitHub (Version Control)
+- :contentReference[oaicite:0]{index=0} (Frontend Hosting)
+- :contentReference[oaicite:1]{index=1} (Backend Hosting)
+- :contentReference[oaicite:2]{index=2} (Local DB Management)
 
----
-
-## ⚙️ Installation (Local Setup)
-
-### Backend
-```bash
-cd backend
-npm install
-npm run dev
+### 🔹 Other Concepts Used
+- Geolocation API (Browser GPS)
+- Real-time data handling
+- CORS handling
+- Environment variables (.env)
