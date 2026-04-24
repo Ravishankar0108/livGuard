@@ -90,27 +90,7 @@ Built with a modern **React + Node.js + MongoDB** stack and deployed on cloud pl
 
 Here is the complete fixed README — copy and paste everything:
 
-markdown<div align="center">
 
-<img src="https://img.shields.io/badge/LivGuard-Family%20Safety%20Tracker-blueviolet?style=for-the-badge&logo=shield&logoColor=white" alt="LivGuard Banner" />
-
-# 🛡️ LivGuard — Real-Time Family Safety Tracker
-
-### *Know where your loved ones are. Always. Instantly. Securely.*
-
-<br/>
-
-[![Live Demo](https://img.shields.io/badge/🌐%20Live%20Demo-Click%20Here-22c55e?style=for-the-badge)](https://liv-guard.vercel.app)
-[![Made with React](https://img.shields.io/badge/React-Vite-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev)
-[![Node.js](https://img.shields.io/badge/Node.js-Express-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org)
-[![MongoDB](https://img.shields.io/badge/MongoDB-Database-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://mongodb.com)
-[![Deployed on Vercel](https://img.shields.io/badge/Vercel-Deployed-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com)
-[![Deployed on Render](https://img.shields.io/badge/Render-Backend-46E3B7?style=for-the-badge&logo=render&logoColor=black)](https://render.com)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
-
-</div>
-
----
 
 ## 📌 Table of Contents
 
