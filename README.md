@@ -1,37 +1,54 @@
-# livGuard - Consent-Based Family Live Location Tracker
+# 🚀 LivGuard – Real-Time Family Safety Tracker
 
-livGuard is a full-stack safety project for live GPS location sharing with consent. It uses Node.js, Express, MongoDB, Socket.IO, React, Leaflet, and OpenStreetMap.
+> A real-time web application that allows trusted family members to share and track live location securely with user consent.
 
-## Features
-- OTP-style login/register in development
-- Create or join a family with invite code
-- Consent-based live browser GPS sharing
-- Live map dashboard
-- Real-time updates with Socket.IO
-- SOS alert API
-- Location history API
+---
 
-## Run Backend
+## 🌐 Live Demo
+🔗 https://liv-guard.vercel.app
+
+---
+
+## 📸 Preview
+![LivGuard Preview](https://via.placeholder.com/800x400.png?text=LivGuard+App)
+
+---
+
+## 🧠 Features
+
+- 📍 Real-time location tracking
+- 🔐 OTP-based login (demo OTP: 722303)
+- 👨‍👩‍👧 Family member tracking
+- 🗺️ Interactive map interface
+- ⚡ Fast & responsive UI
+- 🌍 Works globally (deployed)
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- React (Vite)
+- JavaScript
+- CSS
+
+### Backend
+- Node.js
+- Express.js
+
+### Database
+- MongoDB
+
+### Deployment
+- Frontend: :contentReference[oaicite:1]{index=1}
+- Backend: :contentReference[oaicite:2]{index=2}
+
+---
+
+## ⚙️ Installation (Local Setup)
+
+### Backend
 ```bash
 cd backend
 npm install
-cp .env.example .env
 npm run dev
-```
-
-## Run Web Dashboard
-```bash
-cd web
-npm install
-npm run dev
-```
-
-Open: http://localhost:3000
-
-## Deploy
-- Backend: Render Web Service
-- Database: MongoDB Atlas
-- Frontend: Vercel
-
-## Important
-This project does not track by SIM card. It uses legal GPS/browser permission-based tracking only.
