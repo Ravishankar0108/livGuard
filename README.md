@@ -350,6 +350,8 @@ livguard/
 └── README.md
 ```
 
+---
+
 ## 🔮 Future Improvements
 
 | Priority | Feature | Description |
@@ -395,6 +397,5 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 ![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-blueviolet?style=for-the-badge)
 
 </div>
-
 
 
