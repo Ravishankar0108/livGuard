@@ -87,10 +87,15 @@ Built with a modern **React + Node.js + MongoDB** stack and deployed on cloud pl
 | 📱 | **Responsive Design** | Optimized for both desktop and mobile browsers |
 | 🔒 | **Consent-First Model** | Location is only shared when the user explicitly grants browser permission |
 
+
+
+
 ---
 
 ## ⚙️ How It Works
-┌─────────────────────────────────────────────────────────────────┐
+
+
+──────────┐
 │                        USER FLOW                                │
 │                                                                 │
 │  1. User visits LivGuard → enters phone number                 │
@@ -115,7 +120,7 @@ Built with a modern **React + Node.js + MongoDB** stack and deployed on cloud pl
 │           │                                                     │
 │           ▼                                                     │
 │  8. Family members query API → see live pins on Leaflet map    │
-└─────────────────────────────────────────────────────────────────┘
+
 
 
 ### 🔑 Authentication Flow
@@ -180,8 +185,7 @@ Built with a modern **React + Node.js + MongoDB** stack and deployed on cloud pl
 ---
 
 ## 🏗️ Deployment Architecture
-
-┌──────────────────────────┐
+    ┌──────────────────────────┐
                     │        END USER           │
                     │   (Browser / Mobile)      │
                     └────────────┬─────────────┘
@@ -202,6 +206,7 @@ Built with a modern **React + Node.js + MongoDB** stack and deployed on cloud pl
                     │      MONGODB ATLAS        │
                     │   Cloud Database Cluster  │
                     └──────────────────────────┘
+
 
 
                     - **Frontend** is statically built and served via Vercel's global CDN edge network
@@ -227,7 +232,7 @@ Make sure you have the following installed:
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/livguard.git
+git clone https://github.com/Ravishankar0108/livguard.git
 cd livguard
 ```
 
@@ -341,6 +346,7 @@ livguard/
 │   └── package.json
 │
 └── README.md
+
 ---
 
 ## 🔮 Future Improvements
@@ -363,9 +369,9 @@ livguard/
 
 <div align="center">
 
-**Built with 💙 by Your Name**
+**Built with 💙 by Ravi Shankar Shukla**
 
-[![GitHub](https://img.shields.io/badge/GitHub-@yourhandle-181717?style=for-the-badge&logo=github)](https://github.com/yourhandle)
+[![GitHub](https://img.shields.io/badge/GitHub-@Ravishankar0108-181717?style=for-the-badge&logo=github)](https://github.com/Ravishankar0108)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/yourprofile)
 [![Portfolio](https://img.shields.io/badge/Portfolio-Visit-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://yourportfolio.com)
 
