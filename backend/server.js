@@ -53,6 +53,6 @@ mongoose.connect(process.env.MONGODB_URI)
   .then(() => {
     console.log('MongoDB connected');
     const PORT = process.env.PORT || 5000;
-    server.listen(PORT, () => console.log(`FamTrack server on port ${PORT}`));
+    server.listen(PORT, () => console.log(`livGuard server on port ${PORT}`));
   })
   .catch(err => { console.error('DB connection failed:', err); process.exit(1); });
