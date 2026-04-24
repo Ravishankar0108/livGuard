@@ -442,36 +442,5 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 
 </div>
 
----
 
-## ⚙️ How It Works
-## ⚙️ How It Works
 
-```
-┌──────────────────────────────────────────────────────────────┐
-│                         USER FLOW                            │
-│                                                              │
-│  1. User visits LivGuard → enters phone number              │
-│              │                                               │
-│              ▼                                               │
-│  2. OTP is generated & validated (demo OTP: 722303)         │
-│              │                                               │
-│              ▼                                               │
-│  3. JWT token issued → user session begins                  │
-│              │                                               │
-│              ▼                                               │
-│  4. User allows browser location permission                 │
-│              │                                               │
-│              ▼                                               │
-│  5. Geolocation API captures lat/lng coordinates            │
-│              │                                               │
-│              ▼                                               │
-│  6. Coordinates sent to Express backend via REST API        │
-│              │                                               │
-│              ▼                                               │
-│  7. MongoDB stores/updates location document                │
-│              │                                               │
-│              ▼                                               │
-│  8. Family members query API → see pins on Leaflet map      │
-└──────────────────────────────────────────────────────────────┘
-```
