@@ -396,6 +396,7 @@ npm run dev
 
 ## 📁 Project Structure
 
+```
 livguard/
 │
 ├── frontend/                  # React (Vite) Application
@@ -428,8 +429,7 @@ livguard/
 │   └── package.json
 │
 └── README.md
-
----
+```
 
 ## 🔮 Future Improvements
 
