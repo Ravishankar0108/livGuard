@@ -8,8 +8,7 @@
 
 <br/>
 
-[![Live Demo](https://img.shields.io/badge/🌐%20Live%20Demo-liv--guard.vercel.app-22c55e?style=for-the-badge)](https://liv-guard.vercel.app)
-[![Backend API](https://img.shields.io/badge/⚙️%20Backend%20API-livguard.onrender.com-3b82f6?style=for-the-badge)](https://livguard.onrender.com)
+[![Live Demo](https://img.shields.io/badge/🌐%20Live%20Demo-Click%20Here-22c55e?style=for-the-badge)](https://liv-guard.vercel.app)
 [![Made with React](https://img.shields.io/badge/React-Vite-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev)
 [![Node.js](https://img.shields.io/badge/Node.js-Express-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org)
 [![MongoDB](https://img.shields.io/badge/MongoDB-Database-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://mongodb.com)
@@ -65,37 +64,126 @@ Built with a modern **React + Node.js + MongoDB** stack and deployed on cloud pl
 
 ## 🔗 Live Demo
 
-| Service | URL | Platform |
-|--------|-----|----------|
-| 🖥️ Frontend | [https://liv-guard.vercel.app](https://liv-guard.vercel.app) | Vercel |
-| ⚙️ Backend API | [https://livguard.onrender.com](https://livguard.onrender.com) | Render |
+| Service | Details |
+| :--- | :--- |
+| 🖥️ **Frontend (Live App)** | [https://liv-guard.vercel.app](https://liv-guard.vercel.app) |
+| ⚙️ **Backend** | `https://livguard.onrender.com` (REST API — not a webpage) |
+| ☁️ **Frontend Hosting** | Vercel |
+| 🖥️ **Backend Hosting** | Render |
 
-> ⚠️ **Note:** The backend is hosted on Render's free tier. It may take **15–30 seconds** to wake up on first request. Please be patient on cold starts.
+> ⚠️ **Note:** The backend runs as a REST API server — it is not meant to be opened in a browser. The frontend at the link above is the full usable app.
 
 ---
 
 ## ✨ Features
 
-| # | Feature | Description |
-|---|---------|-------------|
-| 📍 | **Live Location Tracking** | Tracks user's real-time GPS coordinates using the browser Geolocation API |
-| 🔐 | **OTP-Based Authentication** | Secure login flow using a one-time password system with JWT session tokens |
+| Icon | Feature | Description |
+| :---: | :--- | :--- |
+| 📍 | **Live Location Tracking** | Tracks real-time GPS coordinates using the browser Geolocation API |
+| 🔐 | **OTP-Based Authentication** | Secure login flow using a one-time password with JWT session tokens |
 | 👨‍👩‍👧 | **Family Member System** | Add and manage trusted family members to share location with |
-| 🗺️ | **Interactive Map UI** | Beautiful, zoomable Leaflet.js map with live location pins and labels |
+| 🗺️ | **Interactive Map UI** | Zoomable Leaflet.js map with live location pins and labels |
 | 🔄 | **Real-Time Updates** | Location refreshes continuously while the session is active |
 | 🌐 | **Globally Accessible** | Fully deployed — works from any device, any browser, anywhere |
 | 📱 | **Responsive Design** | Optimized for both desktop and mobile browsers |
-| 🔒 | **Consent-First Model** | Location is only shared when the user explicitly grants browser permission |
+| 🔒 | **Consent-First Model** | Location shared only when user explicitly grants browser permission |
 
+Here is the complete fixed README — copy and paste everything:
 
+markdown<div align="center">
 
+<img src="https://img.shields.io/badge/LivGuard-Family%20Safety%20Tracker-blueviolet?style=for-the-badge&logo=shield&logoColor=white" alt="LivGuard Banner" />
+
+# 🛡️ LivGuard — Real-Time Family Safety Tracker
+
+### *Know where your loved ones are. Always. Instantly. Securely.*
+
+<br/>
+
+[![Live Demo](https://img.shields.io/badge/🌐%20Live%20Demo-Click%20Here-22c55e?style=for-the-badge)](https://liv-guard.vercel.app)
+[![Made with React](https://img.shields.io/badge/React-Vite-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev)
+[![Node.js](https://img.shields.io/badge/Node.js-Express-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org)
+[![MongoDB](https://img.shields.io/badge/MongoDB-Database-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://mongodb.com)
+[![Deployed on Vercel](https://img.shields.io/badge/Vercel-Deployed-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com)
+[![Deployed on Render](https://img.shields.io/badge/Render-Backend-46E3B7?style=for-the-badge&logo=render&logoColor=black)](https://render.com)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
+
+</div>
+
+---
+
+## 📌 Table of Contents
+
+- [Problem Statement](#-problem-statement)
+- [What is LivGuard?](#-what-is-livguard)
+- [Live Demo](#-live-demo)
+- [Features](#-features)
+- [How It Works](#-how-it-works)
+- [Tech Stack](#-tech-stack)
+- [Deployment Architecture](#-deployment-architecture)
+- [Getting Started](#-getting-started)
+- [Usage Guide](#-usage-guide)
+- [Demo Credentials](#-demo-credentials)
+- [Project Structure](#-project-structure)
+- [Future Improvements](#-future-improvements)
+- [Author](#-author)
+
+---
+
+## ❗ Problem Statement
+
+In today's fast-paced world, families are often spread across cities, campuses, and workplaces. Parents worry about children commuting late at night. Elderly family members may wander or need assistance. Friends want to coordinate meetups safely.
+
+Existing solutions either:
+- Require expensive hardware (GPS devices)
+- Lock features behind paywalls
+- Compromise user privacy with always-on tracking
+- Lack real-time responsiveness
+
+**LivGuard solves this** by providing a lightweight, browser-based, consent-first location sharing system — no app install required, no subscription fees, and no hidden tracking. It works anywhere in the world, on any device with a browser.
+
+> *Your family's safety shouldn't depend on a monthly subscription.*
+
+---
+
+## 🌍 What is LivGuard?
+
+**LivGuard** is a full-stack, real-time web application that enables trusted family members to share and view live locations securely through an interactive map interface.
+
+Built with a modern **React + Node.js + MongoDB** stack and deployed on cloud platforms, LivGuard demonstrates production-grade engineering: secure JWT-based authentication, RESTful API design, real-time geolocation, and a responsive map UI — all accessible from any browser, anywhere in the world.
+
+---
+
+## 🔗 Live Demo
+
+| Service | Details |
+| :--- | :--- |
+| 🖥️ **Frontend (Live App)** | [https://liv-guard.vercel.app](https://liv-guard.vercel.app) |
+| ⚙️ **Backend** | `https://livguard.onrender.com` (REST API — not a webpage) |
+| ☁️ **Frontend Hosting** | Vercel |
+| 🖥️ **Backend Hosting** | Render |
+
+> ⚠️ **Note:** The backend runs as a REST API server — it is not meant to be opened in a browser. The frontend at the link above is the full usable app.
+
+---
+
+## ✨ Features
+
+| Icon | Feature | Description |
+| :---: | :--- | :--- |
+| 📍 | **Live Location Tracking** | Tracks real-time GPS coordinates using the browser Geolocation API |
+| 🔐 | **OTP-Based Authentication** | Secure login flow using a one-time password with JWT session tokens |
+| 👨‍👩‍👧 | **Family Member System** | Add and manage trusted family members to share location with |
+| 🗺️ | **Interactive Map UI** | Zoomable Leaflet.js map with live location pins and labels |
+| 🔄 | **Real-Time Updates** | Location refreshes continuously while the session is active |
+| 🌐 | **Globally Accessible** | Fully deployed — works from any device, any browser, anywhere |
+| 📱 | **Responsive Design** | Optimized for both desktop and mobile browsers |
+| 🔒 | **Consent-First Model** | Location shared only when user explicitly grants browser permission |
 
 ---
 
 ## ⚙️ How It Works
-
-
-──────────┐
+┌─────────────────────────────────────────────────────────────────┐
 │                        USER FLOW                                │
 │                                                                 │
 │  1. User visits LivGuard → enters phone number                 │
@@ -120,9 +208,7 @@ Built with a modern **React + Node.js + MongoDB** stack and deployed on cloud pl
 │           │                                                     │
 │           ▼                                                     │
 │  8. Family members query API → see live pins on Leaflet map    │
-
-
-
+└─────────────────────────────────────────────────────────────────┘
 ### 🔑 Authentication Flow
 
 1. User enters their registered phone number
@@ -136,7 +222,7 @@ Built with a modern **React + Node.js + MongoDB** stack and deployed on cloud pl
 1. Browser's `navigator.geolocation.watchPosition()` continuously polls coordinates
 2. On each update, a `PATCH /api/location` request is sent to the backend
 3. Backend updates the user's location document in MongoDB
-4. Family members' dashboards periodically `GET /api/family/locations`
+4. Family members' dashboards periodically call `GET /api/family/locations`
 5. Leaflet.js re-renders map markers at updated coordinates
 
 ---
@@ -144,8 +230,9 @@ Built with a modern **React + Node.js + MongoDB** stack and deployed on cloud pl
 ## 🧰 Tech Stack
 
 ### 🎨 Frontend
+
 | Technology | Purpose |
-|-----------|---------|
+| :--- | :--- |
 | **React (Vite)** | Component-based UI with fast HMR development |
 | **JavaScript (ES6+)** | Application logic and async API communication |
 | **Leaflet.js** | Interactive, mobile-friendly maps with custom markers |
@@ -153,29 +240,33 @@ Built with a modern **React + Node.js + MongoDB** stack and deployed on cloud pl
 | **Axios** | RESTful communication with the backend |
 
 ### 🔧 Backend
+
 | Technology | Purpose |
-|-----------|---------|
+| :--- | :--- |
 | **Node.js** | JavaScript runtime for server-side execution |
 | **Express.js** | Lightweight REST API framework |
 | **JWT (jsonwebtoken)** | Stateless session authentication |
 | **CORS / dotenv** | Cross-origin config and environment management |
 
 ### 🗄️ Database
+
 | Technology | Purpose |
-|-----------|---------|
+| :--- | :--- |
 | **MongoDB** | NoSQL document store for users and locations |
 | **Mongoose** | Schema modeling and query abstraction |
 | **MongoDB Compass** | Local DB management and visualization |
 
 ### ☁️ Deployment & Tools
+
 | Service | Role |
-|---------|------|
+| :--- | :--- |
 | **Vercel** | Frontend hosting with CI/CD from Git |
 | **Render** | Backend Node.js server hosting |
 | **MongoDB Atlas** | Cloud-hosted MongoDB cluster |
 | **Git & GitHub** | Version control and source code management |
 
 ### 🔩 Other Concepts Used
+
 - Geolocation API (Browser GPS)
 - Real-time data handling
 - CORS handling
@@ -185,7 +276,7 @@ Built with a modern **React + Node.js + MongoDB** stack and deployed on cloud pl
 ---
 
 ## 🏗️ Deployment Architecture
-    ┌──────────────────────────┐
+┌──────────────────────────┐
                     │        END USER           │
                     │   (Browser / Mobile)      │
                     └────────────┬─────────────┘
@@ -206,9 +297,6 @@ Built with a modern **React + Node.js + MongoDB** stack and deployed on cloud pl
                     │      MONGODB ATLAS        │
                     │   Cloud Database Cluster  │
                     └──────────────────────────┘
-
-
-
                     - **Frontend** is statically built and served via Vercel's global CDN edge network
 - **Backend** runs as a persistent Node.js process on Render's cloud infrastructure
 - **Database** is a managed MongoDB Atlas cluster with connection pooling via Mongoose
@@ -227,16 +315,12 @@ Make sure you have the following installed:
 - [MongoDB Atlas](https://www.mongodb.com/atlas) account (or local MongoDB)
 - [Git](https://git-scm.com/)
 
----
-
 ### 1️⃣ Clone the Repository
 
 ```bash
 git clone https://github.com/Ravishankar0108/livguard.git
 cd livguard
 ```
-
----
 
 ### 2️⃣ Backend Setup
 
@@ -246,7 +330,7 @@ npm install
 cp .env.example .env
 ```
 
-**Configure your `.env` file:**
+Configure your `.env` file:
 
 ```env
 PORT=5000
@@ -261,8 +345,6 @@ npm run dev
 
 > Backend will run at `http://localhost:5000`
 
----
-
 ### 3️⃣ Frontend Setup
 
 ```bash
@@ -271,7 +353,7 @@ npm install
 cp .env.example .env
 ```
 
-**Configure your `.env` file:**
+Configure your `.env` file:
 
 ```env
 VITE_API_BASE_URL=http://localhost:5000
@@ -303,7 +385,7 @@ npm run dev
 ## 🔑 Demo Credentials
 
 | Field | Value |
-|-------|-------|
+| :--- | :--- |
 | 📱 Phone Number | Any number (demo mode) |
 | 🔢 OTP | `722303` |
 | 🔐 Auth | JWT token (auto-managed by app) |
@@ -330,15 +412,15 @@ livguard/
 │   └── package.json
 │
 ├── backend/                   # Node.js + Express API
-│   ├── controllers/           # Route handler logic
+│   ├── controllers/
 │   │   ├── authController.js
 │   │   └── locationController.js
-│   ├── middleware/            # JWT auth middleware
+│   ├── middleware/
 │   │   └── authMiddleware.js
-│   ├── models/                # Mongoose schemas
+│   ├── models/
 │   │   ├── User.js
 │   │   └── Location.js
-│   ├── routes/                # Express route definitions
+│   ├── routes/
 │   │   ├── authRoutes.js
 │   │   └── locationRoutes.js
 │   ├── .env.example
@@ -352,7 +434,7 @@ livguard/
 ## 🔮 Future Improvements
 
 | Priority | Feature | Description |
-|----------|---------|-------------|
+| :---: | :--- | :--- |
 | 🔴 High | **Real OTP via SMS** | Integrate Twilio / AWS SNS for secure, time-limited OTP delivery |
 | 🔴 High | **WebSocket / Socket.IO** | Replace polling with true real-time push updates |
 | 🟠 Medium | **Push Notifications** | Alert family members when someone arrives or leaves a location |
@@ -394,3 +476,7 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 ![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-blueviolet?style=for-the-badge)
 
 </div>
+
+---
+
+## ⚙️ How It Works
